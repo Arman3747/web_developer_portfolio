@@ -42,7 +42,9 @@
 .section_description{
     font-size: 18px;
     color: #757575;
-
+}
+.text_centre{
+    text-align: center;
 }
 
 /* Nav styles */
@@ -116,7 +118,11 @@ nav li a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* about styles */
@@ -124,7 +130,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+
 }
 
 .about_items{
@@ -135,6 +141,18 @@ main{
 .item_description{
     font-weight: 600;
 
+}
+
+/* skill section styles is here  */
+
+.skills_container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 
 
